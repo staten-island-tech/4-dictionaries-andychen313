@@ -1,4 +1,4 @@
-market_buy_items = [
+""" market_buy_items = [
     {
         "name": "Banana",
         "price": "0.59"
@@ -22,4 +22,10 @@ market_buy_items = [
     }
 
 
-]
+] """
+
+item = {
+    "name": "Apple",
+    "price": 0.89,
+    "description": 
+}
