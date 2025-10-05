@@ -50,10 +50,23 @@ market_items = [
 
 ]
 
-print("Welcome to our market, where we sell multiple healthy fruits!")
-for index, item in enumerate(market_items):
-    print(index, ":", item["name"])
+cart = []
+total = 0.0
+
 
 while True:
-    Choices = int(input("According to the index, what fruits(s) would you like to add to your cart?: "))
-print(f"You have chose to purchase: {market_items[Choices]["name"]}")
+    print("Welcome to our market, where we sell multiple healthy fruits! These are the fruits we offer: ")
+    for index, item in enumerate(market_items):
+        print(index, ":", item["name"])
+
+    
+    choices = int(input("According to the index, what fruits(s) would you like to add to your cart?: "))
+    cart.append(market_items[choices]["name"])
+    total += market_items[choices]["price"]
+
+    continue_buying = input("Is that all? Would you like to buy more items? (Enter yes/no): ")
+    if continue_buying != "yes":
+        break
+
+
+print("Your cart currently contains these following items: )
