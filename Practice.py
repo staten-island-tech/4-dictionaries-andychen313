@@ -16,3 +16,13 @@ if t_count > s_count:
     print("English")
 else:
     print("French")
+
+""" N = int(input("How many parking spots are there?: "))
+yesterday = input("Use C to indicate an occupied spot and . to indicate a free spot from yesterday:  ")
+today = input("Use C to indicate an occupied spot and . to indicate a free spot for today: ")
+
+parked_today_and_yesterday = 0
+for i in range(N):
+    if yesterday[i] == 'C' and today[i] == 'C':
+        parked_today_and_yesterday +=1
+print(parked_today_and_yesterday) """
