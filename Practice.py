@@ -110,11 +110,11 @@ lang() """
         print("French")
 english_or_french()  """
 
-""" def lang(x):
-    input = ("Give me the line(s): ")
-    t_count = 0
-    s_count = 0
-    for char in x:
+""" def lang():
+    line_or_lines = input("Give me the line(s): ")
+    t = 0
+    s = 0
+    for char in line_or_lines:
         if char == "t" or char == "T":
             t+=1
         elif char == "s" or char == "S":
@@ -124,4 +124,15 @@ english_or_french()  """
         print("English")
     else:
         print("French")
-lang(input) """
+lang() """
+
+def parking_spaces():
+    yesterday = input("Use C to indicate an occupied space and use . to indicate a free space from yesterday: ")
+    today = input("Use C to indicate an occupied space and . to indicate a free space for today: ")
+    parked_spaces = 0
+
+    for i in range(len(yesterday)):
+        if yesterday[i] == 'C' and today[i] == 'C':
+            parked_spaces +=1
+    print(f"There are {parked_spaces} spaces that were parked today and yesterday.")
+parking_spaces()
