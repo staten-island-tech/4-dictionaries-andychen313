@@ -126,7 +126,7 @@ english_or_french()  """
         print("French")
 lang() """
 
-def parking_spaces():
+""" def parking_spaces():
     yesterday = input("Use C to indicate an occupied space and use . to indicate a free space from yesterday: ")
     today = input("Use C to indicate an occupied space and . to indicate a free space for today: ")
     parked_spaces = 0
@@ -135,4 +135,61 @@ def parking_spaces():
         if yesterday[i] == 'C' and today[i] == 'C':
             parked_spaces +=1
     print(f"There are {parked_spaces} spaces that were parked today and yesterday.")
+parking_spaces() """
+
+""" def lang():
+    line_or_lines = input("Give me the line(s): ")
+    t_count = 0
+    s_count = 0
+    for char in line_or_lines:
+        if char == 't' or char == 'T':
+            t_count +=1
+        elif char == 's' or char == 'S':
+            s_count +=1
+    
+    if t_count > s_count:
+        print("English")
+    else:
+        print("French")
+lang() """
+
+""" def parking_spaces():
+    yesterday = input("Use C to indicate an occupied space and . to indicate a free space from yesterday: ")
+    today = input("Use C to indicate an occupied space and . to indicate a free space for today: ")
+    parked_spaces = 0
+
+    for i in range(len(yesterday)):
+        if yesterday[i] == 'C' and today[i] == 'C':
+            parked_spaces +=1
+    print(parked_spaces)
+parking_spaces() """
+
+def lang():
+    line_or_lines = input("Give me the line(s): ")
+    t_count = 0
+    s_count = 0
+
+    for char in line_or_lines:
+        if char == 't' or char == 'T':
+            t_count+=1
+        elif char == 's' or char == 'S':
+            s_count+=1
+    
+    if t_count > s_count:
+        print("English")
+    else:
+        print("French")
+lang()
+
+""" def parking_spaces():
+    yesterday = input("Use C to indicate an occupied space and . to indicate a free space from yesterday: ")
+    today = input("Use C to indicate an occupied space and . to indicate a free space for today: ")
+    parked_spaces = 0
+
+    for i in range(len(yesterday)):
+        if yesterday[i] == 'C' and today[i] == 'C':
+            parked_spaces +=1
+    print(f"There are {parked_spaces} spaces occupied from yesterday and today.")
 parking_spaces()
+
+#Conditional statements and looping through characters. """
