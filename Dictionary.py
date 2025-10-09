@@ -1,4 +1,4 @@
-market_items = [
+""" market_items = [
 
 {
     "name": "Apple",
@@ -80,4 +80,12 @@ while True:
 print("Your cart currently contains these following items: ")
 for item in cart:
     print("-", item)
-print(f"Total cost: ${total:.2f}")
+print(f"Total cost: ${total:.2f}") """
+
+""" student = {
+    'name': 'Cadee',
+    'age': 15,
+    'grades': (80, 90, 100)
+}
+print(student['name']) """
+

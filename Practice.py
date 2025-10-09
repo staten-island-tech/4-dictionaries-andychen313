@@ -164,7 +164,7 @@ lang() """
     print(parked_spaces)
 parking_spaces() """
 
-def lang():
+""" def lang():
     line_or_lines = input("Give me the line(s): ")
     t_count = 0
     s_count = 0
@@ -179,7 +179,7 @@ def lang():
         print("English")
     else:
         print("French")
-lang()
+lang() """
 
 """ def parking_spaces():
     yesterday = input("Use C to indicate an occupied space and . to indicate a free space from yesterday: ")
@@ -193,3 +193,43 @@ lang()
 parking_spaces()
 
 #Conditional statements and looping through characters. """
+
+""" def lang():
+    line_or_lines = input("Give me the line(s): ")
+    t_count = 0
+    s_count = 0
+
+    for char in line_or_lines:
+        if char == 'T' or char == 't':
+            t_count +=1
+        elif char == 'S' or char == 's':
+            s_count +=1
+    
+    if t_count > s_count:
+        print("English")
+    else:
+        print("French")
+lang() """
+
+""" def occupied(n,y,t):
+    both = 0
+    for i in range(n):
+        if (y[i] == "C" and t[i] == "C"):
+            both +=1
+    return both
+print(occupied(5, "CCC..", "C.C.C")) """
+
+""" def occupied():
+    n = int(input("How many parking spaces are there?: "))
+    yesterday = input("Use C to indicate an occupied space and . to indicate a free space from yesterday: ")
+    today = input("Use C to indicate an occupied space and . to indicate a free space: ")
+    both = 0
+
+    for i in range(n):
+        if yesterday[i] == 'C' and today[i] == 'C':
+            both +=1
+    print(both)
+occupied() """
+
+def honi_count():
+    word = input("Give me the word: ")
