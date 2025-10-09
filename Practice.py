@@ -231,5 +231,30 @@ print(occupied(5, "CCC..", "C.C.C")) """
     print(both)
 occupied() """
 
-def honi_count():
+""" def honi_count():
     word = input("Give me the word: ")
+    need_word = "HONI"
+    x = 0
+    y = 0
+
+    for char in word:
+        if char == need_word[x]:
+            x+=1
+            if x == 4:
+                y+=1
+                x = 0
+    print(y)
+honi_count() """
+
+""" def add(x,y):
+    return x+y
+result = add(5,8)
+print(result) """
+
+def integer_check():
+    x = int(input("Give me a number: "))
+    if x > 0:
+        return "Positive number"
+    return "Negative number"
+print(integer_check())
+integer_check()
