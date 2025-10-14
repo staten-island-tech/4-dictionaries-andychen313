@@ -251,10 +251,44 @@ honi_count() """
 result = add(5,8)
 print(result) """
 
-def integer_check():
+""" def integer_check():
     x = int(input("Give me a number: "))
     if x > 0:
         return "Positive number"
     return "Negative number"
 print(integer_check())
-integer_check()
+integer_check() """
+
+""" def MC(n, s a):
+    correct = 0
+    for i in range(n):
+        if s[i] == a[i]:
+            correct+=1 """
+
+""" def password(x):
+    upper = 0
+    lower = 0
+    digits = 0
+    if len(x) > 6 and len(x) < 13:
+        for char in x:
+            if char.isdigit():
+                lower +=1
+        if upper >3 and lower >2 and digits>1 """
+
+""" student = {
+    'name': 'Cadee',
+    'age': 15,
+    'grades': (80, 90, 100)
+}
+print(student['name']) """
+
+def wizard(o, n, duels):
+    owner = o
+    number_of_owners = 1
+    for i in duels:
+        #"BA"
+        if duels[1] == owner:
+            owner = duels[0]
+            number_of_owners +=1
+        for i in range(n):
+            duels[i][1] == owner

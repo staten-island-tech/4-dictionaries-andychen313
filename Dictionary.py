@@ -82,10 +82,3 @@ for item in cart:
     print("-", item)
 print(f"Total cost: ${total:.2f}") """
 
-""" student = {
-    'name': 'Cadee',
-    'age': 15,
-    'grades': (80, 90, 100)
-}
-print(student['name']) """
-
