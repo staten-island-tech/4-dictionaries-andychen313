@@ -282,7 +282,7 @@ integer_check() """
 }
 print(student['name']) """
 
-def wizard(o, n, duels):
+""" def wizard(o, n, duels):
     owner = o
     number_of_owners = 1
     for i in duels:
@@ -291,4 +291,17 @@ def wizard(o, n, duels):
             owner = duels[0]
             number_of_owners +=1
         for i in range(n):
-            duels[i][1] == owner
+            duels[i][1] == owner """
+
+""" student = {'name': "Steve", "school": "computing"}
+
+lists and arrays """
+
+N = int(input("How many duels are there?: "))
+def wizard():
+    wand = input("Which wizard first held the wand? Enter an uppercase letter: ")
+    duel = input("Enter all duels between 2 uppercase letters separated by a space")
+    duel = []
+    duel_count = 0
+
+    for char in duel
