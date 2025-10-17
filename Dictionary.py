@@ -1,4 +1,4 @@
-""" market_items = [
+market_items = [
 
 {
     "name": "Apple",
@@ -54,6 +54,20 @@
     "price": 2.89,
     "unit": "/lb",
     "description": "Blueberries are round. Its color is a darkish blue. Blueberries are high in vitamin C, vitamin K, and manganese."
+},
+
+{
+    "name": "Watermelon",
+    "price": 4.29,
+    "unit": "/lb",
+    "description": "Watermelons have an elongated round shape with stripes in an unfixed pattern. Watermelons usually have a green color on the outside and have a red color on the inside."
+},
+
+{
+    "name": "Dragonfruit",
+    "price": "3.49",
+    "unit" : "/lb",
+    "description": "Dragonfruits have a unique shape and have a quite jagged figure. Dragonfruits usually have a reddish pink color on the outside. However, dragonfruits can have either a whitish or bloody pink color."
 }
 
 ]
@@ -80,5 +94,5 @@ while True:
 print("Your cart currently contains these following items: ")
 for item in cart:
     print("-", item)
-print(f"Total cost: ${total:.2f}") """
+print(f"Total cost: ${total:.2f}")
 
