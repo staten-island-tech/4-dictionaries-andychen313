@@ -297,11 +297,55 @@ print(student['name']) """
 
 lists and arrays """
 
-N = int(input("How many duels are there?: "))
+""" N = int(input("How many duels are there?: "))
 def wizard():
     wand = input("Which wizard first held the wand? Enter an uppercase letter: ")
     duel = input("Enter all duels between 2 uppercase letters separated by a space")
     duel = []
     duel_count = 0
 
-    for char in duel
+    for char in duel """
+
+""" n = 3
+s = ["A", "B", "C"]
+a = ["A", "C", "B"]
+def MC(n, s, a):
+    correct = 0
+    for i in range(n):
+        if s[i] == a[i]:
+            correct+=1
+    return correct
+print(MC(n, s ,a)) """
+
+""" x = "CorrectHorseBatteryStaple"
+def password(x):
+    upper = 0
+    lower = 0
+    digit = 0
+    if len(x) > 6 and len(x) < 12:
+        for char in x:
+            if char == "abcdefghijklmnopqrstuvwxyz":
+                lower+=1
+            elif char == "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+                upper+=1
+            elif char == "0123456789":
+                digit +=1
+        print("Valid")
+    else:
+        print("Invalid")
+password(x) """
+
+o = "A"
+n = 3
+duels = ["B A", "C B", "D A"]
+def wand(o, n, duels):
+    owner = o
+    number_of_owners = 1
+    for duel in duels:
+        winner, loser = duel.split()
+        if loser == owner:
+            owner = winner
+            number_of_owners+=1
+    print(number_of_owners)
+    print(owner)
+wand(o, n, duels)
