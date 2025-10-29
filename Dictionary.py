@@ -65,9 +65,82 @@ market_items = [
 
 {
     "name": "Dragonfruit",
-    "price": "3.49",
+    "price": 3.49,
     "unit" : "/lb",
     "description": "Dragonfruits have a unique shape and have a quite jagged figure. Dragonfruits usually have a reddish pink color on the outside. However, dragonfruits can have either a whitish or bloody pink color."
+},
+
+{
+    {
+    "name": "Pineapple",
+    "price": 2.49,
+    "unit": "/lb",
+    "description": "Pineapples have a cylindrical shape with a rough, spiky outer skin and green leaves on top. Its color is yellow on the inside. Pineapples are high in vitamin C and manganese, promoting healthy digestion and immune function."
+},
+
+{
+    "name": "Mango",
+    "price": 1.59,
+    "unit": "/lb",
+    "description": "Mangoes have an oval shape. Its skin color ranges from green to red and yellow, while the inside is orange. Mangoes are rich in vitamin C and vitamin A, supporting skin and eye health."
+},
+
+{
+    "name": "Peach",
+    "price": 2.19,
+    "unit": "/lb",
+    "description": "Peaches are round with a slightly fuzzy skin. Their color is a mix of orange, yellow, and red. Peaches are high in vitamin C and antioxidants, which support healthy skin and digestion."
+},
+
+{
+    "name": "Pear",
+    "price": 1.69,
+    "unit": "/lb",
+    "description": "Pears have a distinct oval shape that narrows near the stem. Their color can range from green to yellow or red. Pears are high in fiber and vitamin C, aiding in digestion and immune health."
+},
+
+{
+    "name": "Grape",
+    "price": 2.79,
+    "unit": "/lb",
+    "description": "Grapes are small and round. Their color can be green, red, or purple. Grapes are high in antioxidants, particularly resveratrol, which supports heart health."
+},
+
+{
+    "name": "Cherry",
+    "price": 3.59,
+    "unit": "/lb",
+    "description": "Cherries are small and round with a bright red or deep burgundy color. Cherries are rich in vitamin C and antioxidants, known to reduce inflammation and support sleep."
+},
+
+{
+    "name": "Papaya",
+    "price": 2.39,
+    "unit": "/lb",
+    "description": "Papayas have an elongated oval shape. Its outer skin is greenish-yellow, and the inside is orange with black seeds. Papayas are high in vitamin C and contain enzymes that aid digestion."
+},
+
+{
+    "name": "Pomegranate",
+    "price": 2.99,
+    "unit": "/lb",
+    "description": "Pomegranates are round with a hard red skin. Inside are juicy red seeds called arils. Pomegranates are high in antioxidants and vitamin C, promoting heart and skin health."
+},
+
+{
+    "name": "Raspberry",
+    "price": 3.19,
+    "unit": "/lb",
+    "description": "Raspberries are small, round clusters of drupelets. Their color is red or sometimes golden. Raspberries are high in fiber, vitamin C, and antioxidants, making them a nutritious fruit."
+},
+
+{
+    "name": "Cantaloupe",
+    "price": 1.99,
+    "unit": "/lb",
+    "description": "Cantaloupes are round with a rough tan skin and orange flesh inside. They are high in vitamin A and vitamin C, supporting eye health and hydration."
+}
+
 }
 
 ]
