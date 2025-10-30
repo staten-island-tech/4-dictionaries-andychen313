@@ -71,7 +71,6 @@ market_items = [
 },
 
 {
-    {
     "name": "Pineapple",
     "price": 2.49,
     "unit": "/lb",
@@ -141,8 +140,6 @@ market_items = [
     "description": "Cantaloupes are round with a rough tan skin and orange flesh inside. They are high in vitamin A and vitamin C, supporting eye health and hydration."
 }
 
-}
-
 ]
 
 cart = []
@@ -155,7 +152,7 @@ while True:
         print(index, ":", item["name"])
 
     
-    choices = int(input("According to the index or the number that accomodates the fruit, what fruits(s) would you like to add to your cart?: "))
+    choices = int(input("According to the index or the number that accomodates the fruit, what fruit would you like to add to your cart?: "))
     cart.append(market_items[choices]["name"])
     total += market_items[choices]["price"]
 
