@@ -368,7 +368,7 @@ class Hero:
         self.inventory = inventory
     def buy(self, item):
         self.inventory.append(item)
-        print(f"{self.name} purchased {item} amd has {self.inventory}")
+        print(f"{self.name} purchased {item} and has {self.inventory}")
 Nathan = Hero("Nathan", 0, ["Pencil"])
 print(Nathan._dict_)
 Nathan.buy("Xi Yang")
