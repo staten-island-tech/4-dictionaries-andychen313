@@ -335,7 +335,7 @@ def password(x):
         print("Invalid")
 password(x) """
 
-o = "A"
+""" o = "A"
 n = 3
 duels = ["B A", "C B", "D A"]
 def wand(o, n, duels):
@@ -348,4 +348,27 @@ def wand(o, n, duels):
             number_of_owners+=1
     print(number_of_owners)
     print(owner)
-wand(o, n, duels)
+wand(o, n, duels) """
+
+""" class Calculator():
+    def add(x,y):
+        print(x+y)
+        return x+y
+    def add_many(list):
+        print(sum(list))
+        return sum(list)
+    def subtract(list):
+        return list
+Calculator.add(15,5) """
+
+class Hero:
+    def _init_(self, name, money, inventory):
+        self.name = name
+        self.money = money
+        self.inventory = inventory
+    def buy(self, item):
+        self.inventory.append(item)
+        print(f"{self.name} purchased {item} amd has {self.inventory}")
+Nathan = Hero("Nathan", 0, ["Pencil"])
+print(Nathan._dict_)
+Nathan.buy("Xi Yang")
