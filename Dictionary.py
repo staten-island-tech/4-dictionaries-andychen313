@@ -152,7 +152,7 @@ while True:
         print(index, ":", item["name"])
 
     
-    choices = int(input("According to the index or the number that accomodates the fruit, what fruit would you like to add to your cart?: "))
+    choices = int(input("Each fruit is only sold for 1lb. According to the index or the number that accomodates the fruit, what fruit would you like to add to your cart?: "))
     cart.append(market_items[choices]["name"])
     total += market_items[choices]["price"]
 
@@ -164,5 +164,5 @@ while True:
 print("Your cart currently contains these following items: ")
 for item in cart:
     print("-", item)
-print(f"Total cost: ${total:.2f}")
+print(f"Total cost: ${total}")
 
