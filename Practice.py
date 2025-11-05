@@ -348,8 +348,8 @@ def wand(o, n, duels):
             number_of_owners+=1
     print(number_of_owners)
     print(owner)
-wand(o, n, duels) """
-
+wand(o, n, duels)
+ """
 """ class Calculator():
     def add(x,y):
         print(x+y)
@@ -361,7 +361,7 @@ wand(o, n, duels) """
         return list
 Calculator.add(15,5) """
 
-class Hero:
+""" class Hero:
     def _init_(self, name, money, inventory):
         self.name = name
         self.money = money
@@ -371,4 +371,33 @@ class Hero:
         print(f"{self.name} purchased {item} and has {self.inventory}")
 Nathan = Hero("Nathan", 0, ["Pencil"])
 print(Nathan._dict_)
-Nathan.buy("Xi Yang")
+Nathan.buy("Xi Yang") """
+
+o = "A"
+duels = ["B A", "C B", "D A"]
+def wand(o, duels):
+    owner = o
+    number_of_owners = 1
+    for duel in duels:
+        winner, loser = duel.split()
+        if loser == owner:
+            owner = winner
+            number_of_owners +=1
+    print(number_of_owners)
+    print(owner)
+wand(o, duels)
+
+""" o = "A"
+n = 3
+duels = ["B A", "C B", "D A"]
+def wand(o, n, duels):
+    owner = o
+    number_of_owners = 1
+    for duel in duels:
+        winner, loser = duel.split()
+        if loser == owner:
+            owner = winner
+            number_of_owners+=1
+    print(number_of_owners)
+    print(owner)
+wand(o, n, duels) """
