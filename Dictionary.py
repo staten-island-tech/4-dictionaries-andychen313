@@ -156,7 +156,7 @@ while True:
     cart.append(market_items[choices]["name"])
     total += market_items[choices]["price"]
 
-    continue_buying = input("Is that all? Would you like to buy more items? (Enter yes/no): ")
+    continue_buying = input("Is that all? Would you like to buy more items? (Enter yes/no): ").lower()
     if continue_buying != "yes":
         break
 
